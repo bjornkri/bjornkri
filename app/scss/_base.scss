@@ -1,15 +1,21 @@
 body {
   background: #000;
   color: #ddddff;
-  font-family: "Helvetica Neue", helvetica, sans-serif;
+  font-family: "Palanquin", helvetica, sans-serif;
   line-height: 1.4em;
+}
+
+h1, h2, h3 {
+  font-family: "Oswald", helvetica, sans-serif;
 }
 
 h1 {
   color: #9090f0;
-  font-size: 2em;
+  font-size: 8em;
+  line-height: 1em;
 }
 
 h2 {
-  font-size: 1.7em;
+  font-size: 2.2em;
+  line-height: 1.7em;
 }

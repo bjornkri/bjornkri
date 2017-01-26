@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../scss/bjornkri.scss';
 
+import Roller from './components/Roller';
+
 
 const App = () => (
   <div id="content">
     <div className="pc">
       <h1>Bj&ouml;rn Kristinsson</h1>
-      <h3>Under permanent reconstruction</h3>
+      <Roller />
     </div>
     <div className="l-colgroup">
       <div>
@@ -17,7 +19,7 @@ const App = () => (
             <li>Promogogo</li>
             <li>Ticketmaster Mobile</li>
             <li>Cooori</li>
-            <li>Atlas Copco (embedded monitoring system)</li>
+            <li>Atlas Copco</li>
           </ul>
         </div>
       </div>
@@ -34,6 +36,7 @@ const App = () => (
     </div>
   </div>
 );
+
 
 ReactDOM.render(
   <App />,
