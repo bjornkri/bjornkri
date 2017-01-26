@@ -1,0 +1,15 @@
+
+#content {
+  max-width: 680px;
+  margin: auto;
+}
+
+@media screen and (min-width: 44em) {
+  .l-colgroup {
+    overflow: hidden;
+  }
+  .l-colgroup > div {
+    float: left;
+    width: 50%;
+  }
+}
