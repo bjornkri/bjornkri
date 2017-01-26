@@ -1,7 +1,7 @@
 {
-  "name": "skeleton",
-  "version": "1.0.0",
-  "description": "My starting off point for react apps with webpack",
+  "name": "bjornkri",
+  "version": "0.8.0",
+  "description": "My website. Mine.",
   "main": "index.js",
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline",
