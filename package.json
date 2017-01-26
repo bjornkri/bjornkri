@@ -4,7 +4,8 @@
   "description": "My starting off point for react apps with webpack",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline"
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline",
+    "build": "node ./node_modules/webpack/bin/webpack"
   },
   "author": "Bjorn Kristinsson",
   "license": "ISC",
