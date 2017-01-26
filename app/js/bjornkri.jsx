@@ -27,9 +27,9 @@ const App = () => (
         <div className="pc">
           <h2>Personal</h2>
           <ul>
-            <li>Spoton games</li>
-            <li>Peregrin</li>
-            <li>What&rsquo;s Brewing?</li>
+            <li><a href="http://spoton-games.com">Spoton games</a></li>
+            <li><a href="http://peregrin.bjornkri.com">Peregrin</a></li>
+            <li><a href="http://whatsbrewing.info">What&rsquo;s Brewing?</a></li>
           </ul>
         </div>
       </div>

@@ -9,6 +9,15 @@ h1, h2, h3 {
   font-family: "Oswald", helvetica, sans-serif;
 }
 
+a {
+  color: #ddddff;
+  transition:.3s;
+}
+
+a:hover {
+  color: #ffd;
+}
+
 h1 {
   color: #9090f0;
   font-size: 8em;
