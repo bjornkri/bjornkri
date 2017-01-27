@@ -20,6 +20,9 @@ const App = () => (
         <LinkList list={personalList} />
       </div>
     </div>
+    <div className="pc cta">
+      Get in touch! <a href="mailto:bjorn@bjornkri.com">bjorn@bjornkri.com</a>
+    </div>
   </div>
 );
 
