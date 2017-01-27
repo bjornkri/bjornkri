@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import '../scss/bjornkri.scss';
 
 import Roller from './components/Roller';
-
+import LinkList from './components/LinkList';
+import { workList, personalList } from './lists';
 
 const App = () => (
   <div id="content">
@@ -13,25 +14,10 @@ const App = () => (
     </div>
     <div className="l-colgroup">
       <div>
-        <div className="pc">
-          <h2>Work</h2>
-          <ul>
-            <li>Promogogo</li>
-            <li>Ticketmaster Mobile</li>
-            <li>Cooori</li>
-            <li>Atlas Copco</li>
-          </ul>
-        </div>
+        <LinkList list={workList} />
       </div>
       <div>
-        <div className="pc">
-          <h2>Personal</h2>
-          <ul>
-            <li><a href="http://spoton-games.com">Spoton games</a></li>
-            <li><a href="http://peregrin.bjornkri.com">Peregrin</a></li>
-            <li><a href="http://whatsbrewing.info">What&rsquo;s Brewing?</a></li>
-          </ul>
-        </div>
+        <LinkList list={personalList} />
       </div>
     </div>
   </div>
