@@ -5,6 +5,7 @@ export const workList = {
     { name: 'Ticketmaster Mobile', url: 'http://m.ticketmaster.com' },
     { name: 'Cooori', url: 'http://cooori.com' },
     { name: 'Atlas Copco (embedded monitoring app)' },
+    { name: 'INTO', url: 'http://intomore.com' },
   ],
 };
 
